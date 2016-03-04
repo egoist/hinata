@@ -1,0 +1,36 @@
+{
+  "name": "hinata",
+  "version": "0.0.0",
+  "description": "Your cli spinner which like a marquee.",
+  "license": "MIT",
+  "repository": "egoist/hinata",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "spinner",
+    "loading",
+    "marquee"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1"
+  },
+  "devDependencies": {
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true
+  }
+}
