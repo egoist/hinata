@@ -40,31 +40,47 @@ setTimeout(() => {
 
 ### new Hinata([options])
 
-#### `options.text` default `''`
+#### options
+
+**text**
+
+default `''`
 
 Placeholder for loading text, eg: `Loading` in `Loading ...`
 
-#### `options.char` default `.`
+**char**
+
+default `.`
 
 Loading character, eg: `❤` in `❤ ❤ ❤ loading webpack`
 
-#### `options.length` default `3`
+**length**
+
+default `3`
 
 How many time a loading character should repeat itself.
 
-#### `options.color` default `false`
+**color**
+
+default `false`
 
 If set to be true, spinner uses your color instead of a random color.
 
-#### `options.spacing` default `0`
+**spacing**
+
+default `0`
 
 How many spaces between each loading character.
 
-#### `options.timeout` default `100`
+**timeout**
+
+default `100`
 
 The timeout to update the spinner.
 
-#### `options.prepend` default `false`
+**prepend**
+
+default `false`
 
 Show loading text at the beginning of the spinner.
 
