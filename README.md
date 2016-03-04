@@ -68,6 +68,10 @@ The timeout to update the spinner.
 
 Show loading text at the beginning of the spinner.
 
+## Related
+
+- [io-spin](https://github.com/egoist/io-spin): Cli spinner made simple.
+
 ## License
 
 MIT © [EGOIST](https://github.com/egoist)
