@@ -1,4 +1,4 @@
-# hinata [![NPM version](https://img.shields.io/npm/v/hinata.svg)](https://npmjs.com/package/hinata) [![NPM downloads](https://img.shields.io/npm/dm/hinata.svg)](https://npmjs.com/package/hinata) [![Build Status](https://img.shields.io/circleci/project/egoist/hinata/master.svg)](https://circleci.com/gh/egoist/hinata) 
+# hinata [![NPM version](https://img.shields.io/npm/v/hinata.svg)](https://npmjs.com/package/hinata) [![NPM downloads](https://img.shields.io/npm/dm/hinata.svg)](https://npmjs.com/package/hinata) [![Build Status](https://img.shields.io/circleci/project/egoist/hinata/master.svg)](https://circleci.com/gh/egoist/hinata)
 
 > Your cli spinner which like a marquee.
 
@@ -38,33 +38,33 @@ setTimeout(() => {
 
 ## API
 
-### hinata([options])
+### new Hinata([options])
 
-`options.text` default `''`
+#### `options.text` default `''`
 
 Placeholder for loading text, eg: `Loading` in `Loading ...`
 
-`options.char` default `.`
+#### `options.char` default `.`
 
 Loading character, eg: `❤` in `❤ ❤ ❤ loading webpack`
 
-`options.length` default `3`
+#### `options.length` default `3`
 
 How many time a loading character should repeat itself.
 
-`options.color` default `false`
+#### `options.color` default `false`
 
 If set to be true, spinner uses your color instead of a random color.
 
-`options.spacing` default `0`
+#### `options.spacing` default `0`
 
 How many spaces between each loading character.
 
-`options.timeout` default `100`
+#### `options.timeout` default `100`
 
 The timeout to update the spinner.
 
-`options.prepend` default `false`
+#### `options.prepend` default `false`
 
 Show loading text at the beginning of the spinner.
 
