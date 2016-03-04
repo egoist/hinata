@@ -1,6 +1,6 @@
 {
   "name": "hinata",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Your cli spinner which like a marquee.",
   "license": "MIT",
   "repository": "egoist/hinata",
